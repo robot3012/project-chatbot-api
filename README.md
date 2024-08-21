@@ -35,7 +35,7 @@ Para instalar y configurar el proyecto localmente:
   ```
 4. **Entrena el modelo (si es necesario):**
 
-  Asegúrate de tener el archivo datos.txt en la raíz del proyecto. Luego ejecuta el script de entrenamiento (ajusta el nombre del archivo si es diferente):
+Asegúrate de tener el archivo datos.txt en la raíz del proyecto. Luego ejecuta el script de entrenamiento (ajusta el nombre del archivo si es diferente):
 
   ```bash
   python trainer.py
@@ -47,7 +47,7 @@ Para instalar y configurar el proyecto localmente:
   ```bash
   uvicorn main:app --host 0.0.0.0 --port 8000
   ```
-  Si estás en un entorno de desarrollo y deseas que el servidor se reinicie automáticamente con los cambios en el código, puedes usar --reload:
+Si estás en un entorno de desarrollo y deseas que el servidor se reinicie automáticamente con los cambios en el código, puedes usar --reload:
 
   ```bash
   uvicorn main:app --host 0.0.0.0 --port 8000 --reload
